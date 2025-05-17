@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Introduction to Objects
+    </title>
+</head>
+<body>
+    <h1>Js objects and its properties</h1>
+    <p>There are two ways of accessing and object properties</p>
+    <h2 id="A"></h2>
+    <script>
+        var car={
+            name:"BMW",colour:"Dark Blue",speed:40
+        }
+        document.getElementById("A").innerHTML=car.name+"<br>"+car["colour"]+"<br>"+car["speed"]
+    </script>
+</body>
+</html>
